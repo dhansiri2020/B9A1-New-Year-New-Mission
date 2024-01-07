@@ -154,4 +154,60 @@ flex-shrink: 0;
 .party-place-red{
   color: #F00;
 }
+.new-best-offer-container{
+  width: 82%;
+  max-width: 1320px;
+  margin: auto;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.new-best-offer-text h3{
+  color: #F00;
+font-family: Inter;
+font-size: 24px;
+}
+.new-best-offer-text h2{
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+text-transform: capitalize;
+padding: 10px;
+
+}
+.new-best-offer-text p{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.new-best-offer-image{
+ border: 6px solid red;
+ border-radius: 100%;
+ padding: 20px;
+ margin-right: 20px;
+}
+.new-best-offer-right{
+  text-align: center;
+  padding: 20px;
+}
+.new-best-offer-right h2{
+  color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.new-best-offer-right p{
+  width: 260px;
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
  
