@@ -35,4 +35,44 @@ font-style: normal;
 font-weight: 900;
 line-height: 95px; /* 131.944% */
  }
- 
+ .holiday-deals-container{
+  width: 1600px;
+  height: 7335px;
+  background: #FFF;
+  align-items: center;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+ }
+ .holiday-deals-text h2{
+  color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }
+ .holiday-deals-text h4{
+  color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+ }
+ .holiday-deals-text h3{
+  color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }
+ .midnight-party-container{
+  width: 1600px;
+  height: 7335px;
+  background: #FFF;
+ }
