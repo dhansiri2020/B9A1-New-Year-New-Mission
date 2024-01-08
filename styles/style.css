@@ -8,7 +8,7 @@
 margin: 50px 140px;
 }
 .container{
-  width: 82%;
+  width: 92%;
   max-width:1320px;
   margin: auto;
   flex-shrink: 0;
@@ -168,15 +168,17 @@ flex-shrink: 0;
   width: 82%;
   max-width: 1320px;
   margin: auto;
+  padding-bottom: 60px;
   background: #FFF;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
 }
+
   /* style new best offer section */
 
-  .new-best-offer-text h3{
+.new-best-offer-text h3{
 color: #F00;
 font-family: Inter;
 font-size: 24px;
@@ -229,6 +231,7 @@ line-height: 32px; /* 160% */
   width: 82%;
   max-width: 1320px;
   margin: auto;
+  padding: 40px;
   background: #FFF;
  }
  .holiday-sale-text h4{
@@ -249,7 +252,7 @@ line-height: 32px; /* 160% */
   .holiday{
     color: #F00;
   }
-  .holiday-deals-text p{
+  .holiday-sale-text p{
   color: rgba(7, 2, 17, 0.60);
   text-align: center;
   font-family: Inter;
@@ -366,6 +369,8 @@ line-height: 32px; /* 160% */
           flex-shrink: 0;
           border-radius: 16px;
           align-items: center;
+          text-align: center;
+          padding: 40px;
           border-radius: 16px;
           background: rgba(168, 122, 122, 0.05);
         }
@@ -400,6 +405,7 @@ line-height: 32px; /* 160% */
           background: #FFF;
           text-align: center;
           align-items: center;
+          padding: 30px;
         }
         button{
           height: 37px;
@@ -408,7 +414,8 @@ line-height: 32px; /* 160% */
           font-family: Inter;
           font-size: 20px;
           font-weight: 600;
-          padding: 5px;
+          text-align: center;
+          padding: 4px;
           text-transform: capitalize;
           border: none;
           border-radius: 0px 40px 40px 0px;
