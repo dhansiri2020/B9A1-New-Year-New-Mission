@@ -432,9 +432,10 @@ line-height: 32px; /* 160% */
         }
         .footer-text-one{
         /* margin-top: 120px; */
-        padding: 120px;
+        padding: 60px;
         display: flex;
-        justify-content: space-between
+        justify-content: space-between;
+         border-bottom: 1px solid #ccc;
         }
         .footer-text-one h2{
           color: #FFF;
@@ -444,14 +445,21 @@ line-height: 32px; /* 160% */
           line-height: 40px; /* 166.667% */
           border: 120px 0;
         }
-        .contact-numbe h2{
+        .contact-number h2{
           padding: 20px;
+        }
+      .contact-number h2 i{
+         
+        margin: 10px;
         }
         .social{
           display: flex;
           justify-content: center;
           align-items: center;
           gap: 20px;
+          padding: 30px;
+          
+          border-bottom: 1px solid #ccc;
         }
         a{
           background-color: #f5f6fa;
