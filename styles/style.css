@@ -6,12 +6,14 @@
 margin: 50px 140px;
 }
 .container{
-  width: 1320px;
-  height: 600px;
+  width: 82%;
+  max-width:1320px;
+  margin: auto;
   flex-shrink: 0;
   border-radius: 16px;
   background-image: linear-gradient(180deg, #0a021a 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Banner\ Image.png');
- }
+  background-repeat: no-repeat;
+}
  .section-heading{
   font-family: 'Merriweather', serif;
   text-align: center;
@@ -272,3 +274,69 @@ line-height: 32px; /* 160% */
       margin-top: 110px;
       position: relative;
      }
+     .best-gifts-container{
+      width: 82%;
+      max-width: 1320px;
+      margin: auto;
+      padding: 40px;
+      background: #FFF; 
+      align-items: center;
+     }
+     .best-gifts-text{
+      align-items: center;
+     }
+     .best-gifts-text h4{
+      color: #F00;
+      font-family: Inter;
+      font-size: 24px;
+      font-weight: 500;
+      text-align: center;
+     }
+     .best-gifts-text h2{
+      color: #070211;
+      font-family: Merriweather;
+      font-size: 48px;
+      font-weight: 900;
+      text-transform: capitalize;
+      text-align: center;
+      }
+      .best-gifts-text p{
+      color: rgba(7, 2, 17, 0.60);
+      font-family: Inter;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px; /* 160% */
+      text-align: center;
+      }
+      .best-gifts-image-top{
+        display: flex;
+        align-items: center;
+        
+      }
+      .best-gifts-image-top img{
+        width: 424px;
+        height: 450px;
+        flex-shrink: 0;
+        margin: 24px;
+        border: 24px;
+        border-radius: 16px;
+      }
+      .best-gifts-image-bottom{
+        display: flex;
+        align-items: center;
+      }
+      .best-gifts-image-bottom img{
+        width: 424px;
+        height: 450px;
+        flex-shrink: 0;
+        margin: 24px;
+        border: 24px;
+        border-radius: 16px;
+      }
+      img{
+       transition: 1s; 
+      }
+      img:hover{
+        transform: scale(1.2);
+        z-index: 2;
+      }
