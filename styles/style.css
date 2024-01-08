@@ -340,3 +340,69 @@ line-height: 32px; /* 160% */
         transform: scale(1.2);
         z-index: 2;
       }
+      #newsletter{
+        margin: 140px;
+        }
+        .newsletter-container{
+          width: 1320px;
+          height: 616px;
+          flex-shrink: 0;
+          border-radius: 16px;
+          align-items: center;
+          border-radius: 16px;
+          background: rgba(168, 122, 122, 0.05);
+        }
+        .newsletter-text{
+          align-items: center;
+          text-align: center;
+        }
+        .newsletter-text h2{
+          color: #070211;
+          text-align: center;
+         font-family: Merriweather;
+         font-size: 48px;
+         font-weight: 900;
+         text-transform: capitalize;
+        }
+        .newsletter-text p{
+          color: rgba(7, 2, 17, 0.60);
+          text-align: center;
+          font-family: Inter;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 32px; /* 160% */
+        }
+        .logo{
+          /* width: 150px; */
+          height: 150px;
+          flex-shrink: 0;
+          text-align: center;
+        }
+        form{
+          border-radius: 50px;
+          background: #FFF;
+          text-align: center;
+          align-items: center;
+        }
+        button{
+          height: 37px;
+          color: #FFF;
+          text-align: center;
+          font-family: Inter;
+          font-size: 20px;
+          font-weight: 600;
+          padding: 5px;
+          text-transform: capitalize;
+          border: none;
+          border-radius: 0px 40px 40px 0px;
+          background: #F00;
+        }
+        form input{
+          width:300px;
+         height: 32px;
+         flex-shrink: 0;
+         padding: 2px;
+    
+          
+        
+        }
